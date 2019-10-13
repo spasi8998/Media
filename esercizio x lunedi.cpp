@@ -11,3 +11,7 @@ int main() {
          	
          	cout << "Inserisci il " << i << " numero" << endl;
          	 cin >> voto[i];
+         	 
+         	 Media=Media+voto[i];
+			  
+		 }
